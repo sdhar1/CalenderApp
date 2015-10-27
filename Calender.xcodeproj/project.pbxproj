@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90B8F2F81BDE267100C235B3 /* addEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B8F2F71BDE267100C235B3 /* addEventViewController.swift */; };
+		90B8F2FA1BDE4FAA00C235B3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B8F2F91BDE4FAA00C235B3 /* Event.swift */; };
 		90E5B3D71BDD4A6D004D0826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5B3D61BDD4A6D004D0826 /* AppDelegate.swift */; };
 		90E5B3D91BDD4A6D004D0826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E5B3D81BDD4A6D004D0826 /* ViewController.swift */; };
 		90E5B3DC1BDD4A6D004D0826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E5B3DA1BDD4A6D004D0826 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90B8F2F71BDE267100C235B3 /* addEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEventViewController.swift; sourceTree = "<group>"; };
+		90B8F2F91BDE4FAA00C235B3 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		90E5B3D31BDD4A6D004D0826 /* Calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E5B3D61BDD4A6D004D0826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90E5B3D81BDD4A6D004D0826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,10 +103,12 @@
 			children = (
 				90E5B3D61BDD4A6D004D0826 /* AppDelegate.swift */,
 				90E5B3D81BDD4A6D004D0826 /* ViewController.swift */,
+				90B8F2F91BDE4FAA00C235B3 /* Event.swift */,
 				90E5B3DA1BDD4A6D004D0826 /* Main.storyboard */,
 				90E5B3DD1BDD4A6D004D0826 /* Assets.xcassets */,
 				90E5B3DF1BDD4A6D004D0826 /* LaunchScreen.storyboard */,
 				90E5B3E21BDD4A6D004D0826 /* Info.plist */,
+				90B8F2F71BDE267100C235B3 /* addEventViewController.swift */,
 			);
 			path = Calender;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B8F2FA1BDE4FAA00C235B3 /* Event.swift in Sources */,
 				90E5B3D91BDD4A6D004D0826 /* ViewController.swift in Sources */,
 				90E5B3D71BDD4A6D004D0826 /* AppDelegate.swift in Sources */,
+				90B8F2F81BDE267100C235B3 /* addEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				90E5B3FD1BDD4A6D004D0826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90E5B3FE1BDD4A6D004D0826 /* Build configuration list for PBXNativeTarget "CalenderTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				90E5B4001BDD4A6D004D0826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90E5B4011BDD4A6D004D0826 /* Build configuration list for PBXNativeTarget "CalenderUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				90E5B4031BDD4A6D004D0826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
